@@ -20,6 +20,7 @@ def analyze_correlation(data, threshold=0.7):
                     negative_correlation.append((col1, col2, correlation_value))
 
     #Correlation matrix as a heatmap
+    plt.rcParams['figure.figsize'] = [10, 10]
     sns.heatmap(correlation_matrix, annot=True)
     plt.show()
 
