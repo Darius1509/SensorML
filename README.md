@@ -6,7 +6,7 @@
 -Birladeanu Rares\
 -Dinu Darius\
 -Pruteanu Matei\
--Iosub Miruna\
+-Iosub Miruna
 
 ### Progress: WIP
 
