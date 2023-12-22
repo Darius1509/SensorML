@@ -30,8 +30,11 @@ def cross_validation(data, variable_name):
 
     if df_cv is not None:
         for i, metric in enumerate(metrics):
-            plot_cross_validation_metric(df_cv, metric=metric, ax=ax[i])
-            ax[i].set_title(f'Cross Validation {metric} for {variable_name}')
+            try:
+                plot_cross_validation_metric(df_cv, metric=metric, ax=ax[i])
+                ax[i].set_title(f'Cross Validation {metric} for {variable_name}')
+            except Exception as e:
+                print(e)
 
         plt.show()
         fig.savefig(f'./CrossValidation/CrossValidation-{variable_name}.png')
