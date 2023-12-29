@@ -1,0 +1,284 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML/"
+     xml:base="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:SensorML="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areCuloare -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areCuloare">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#BoalaTomata"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#Culoare"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areCuloareMargine -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areCuloareMargine">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#BoalaTomata"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#CuloareMargine"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areForma -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areForma">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#BoalaTomata"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#Forma"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areIntensitateAfectare -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areIntensitateAfectare">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#BoalaTomata"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#IntensitateAfectare"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areModel -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areModel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#BoalaTomata"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#Model"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areParteAfectata -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areParteAfectata">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#BoalaTomata"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#ParteAfectata"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areRegiuneAnatomica -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areRegiuneAnatomica">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#BoalaTomata"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#RegiuneAnatomica"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areTextura -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areTextura">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#BoalaTomata"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#Textura"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areNumeBoala -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areNumeBoala">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#BoalaTomata"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areNumeCuloare -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areNumeCuloare">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#Culoare"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areNumeCuloareMargine -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areNumeCuloareMargine">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#CuloareMargine"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areNumeForma -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areNumeForma">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#Forma"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areNumeIntensitate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areNumeIntensitate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#IntensitateAfectare"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areNumeModel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areNumeModel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#Model"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areNumeParteAfectata -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areNumeParteAfectata">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#ParteAfectata"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areNumeRegiuneAnatomica -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areNumeRegiuneAnatomica">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#RegiuneAnatomica"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areNumeTextura -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#areNumeTextura">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#Textura"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#BoalaTomata -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#BoalaTomata"/>
+    
+
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#Culoare -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#Culoare"/>
+    
+
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#CuloareMargine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#CuloareMargine"/>
+    
+
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#Forma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#Forma"/>
+    
+
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#IntensitateAfectare -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#IntensitateAfectare"/>
+    
+
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#Model -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#Model"/>
+    
+
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#ParteAfectata -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#ParteAfectata"/>
+    
+
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#RegiuneAnatomica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#RegiuneAnatomica"/>
+    
+
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#Textura -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#Textura"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#instanta_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#instanta_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#BoalaTomata"/>
+        <SensorML:areNumeBoala>LateBlight</SensorML:areNumeBoala>
+        <SensorML:areNumeCuloare>lightGreen</SensorML:areNumeCuloare>
+        <SensorML:areNumeCuloareMargine>-</SensorML:areNumeCuloareMargine>
+        <SensorML:areNumeForma>irregular</SensorML:areNumeForma>
+        <SensorML:areNumeIntensitate>WeakToModerate</SensorML:areNumeIntensitate>
+        <SensorML:areNumeModel>blotchy</SensorML:areNumeModel>
+        <SensorML:areNumeParteAfectata>Leaf</SensorML:areNumeParteAfectata>
+        <SensorML:areNumeRegiuneAnatomica>apicalSuperiorRegion</SensorML:areNumeRegiuneAnatomica>
+        <SensorML:areNumeTextura>damp</SensorML:areNumeTextura>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
