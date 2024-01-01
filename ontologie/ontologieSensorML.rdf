@@ -276,6 +276,147 @@
         <SensorML:areNumeRegiuneAnatomica>apicalSuperiorRegion</SensorML:areNumeRegiuneAnatomica>
         <SensorML:areNumeTextura>damp</SensorML:areNumeTextura>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#instanta_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#instanta_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#BoalaTomata"/>
+        <SensorML:areNumeBoala>LateBlight</SensorML:areNumeBoala>
+        <SensorML:areNumeCuloare>brown</SensorML:areNumeCuloare>
+        <SensorML:areNumeCuloareMargine>lightGreen</SensorML:areNumeCuloareMargine>
+        <SensorML:areNumeForma>irregular</SensorML:areNumeForma>
+        <SensorML:areNumeIntensitate>Strong</SensorML:areNumeIntensitate>
+        <SensorML:areNumeModel>blotchy</SensorML:areNumeModel>
+        <SensorML:areNumeParteAfectata>Leaf</SensorML:areNumeParteAfectata>
+        <SensorML:areNumeRegiuneAnatomica>superiorSide</SensorML:areNumeRegiuneAnatomica>
+        <SensorML:areNumeTextura>dampAndWrinkled</SensorML:areNumeTextura>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#instanta_3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#instanta_3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#Culoare"/>
+        <SensorML:areNumeBoala>LateBlight</SensorML:areNumeBoala>
+        <SensorML:areNumeCuloare>purpleBrown</SensorML:areNumeCuloare>
+        <SensorML:areNumeCuloareMargine>greenBrown</SensorML:areNumeCuloareMargine>
+        <SensorML:areNumeForma>irregular</SensorML:areNumeForma>
+        <SensorML:areNumeIntensitate>SevereToFatal</SensorML:areNumeIntensitate>
+        <SensorML:areNumeModel>blotchy</SensorML:areNumeModel>
+        <SensorML:areNumeParteAfectata>Leaf</SensorML:areNumeParteAfectata>
+        <SensorML:areNumeRegiuneAnatomica>superiorSide</SensorML:areNumeRegiuneAnatomica>
+        <SensorML:areNumeTextura>dampAndWrinkled</SensorML:areNumeTextura>
+        </owl:NamedIndividual>
+
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#instanta_4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#instanta_4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#CuloareMargine"/>
+        <SensorML:areNumeBoala>LateBlight</SensorML:areNumeBoala>
+        <SensorML:areNumeCuloare>darkBrown</SensorML:areNumeCuloare>
+        <SensorML:areNumeCuloareMargine></SensorML:areNumeCuloareMargine>
+        <SensorML:areNumeForma>irregular</SensorML:areNumeForma>
+        <SensorML:areNumeIntensitate>StrongToFatal</SensorML:areNumeIntensitate>
+        <SensorML:areNumeModel>blotchy</SensorML:areNumeModel>
+        <SensorML:areNumeParteAfectata>Stem</SensorML:areNumeParteAfectata>
+        <SensorML:areNumeRegiuneAnatomica></SensorML:areNumeRegiuneAnatomica>
+        <SensorML:areNumeTextura>damp</SensorML:areNumeTextura>
+        </owl:NamedIndividual>
+
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#instanta_5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#instanta_5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#Forma"/>
+        <SensorML:areNumeBoala>LateBlight</SensorML:areNumeBoala>
+        <SensorML:areNumeCuloare>darkRedBrown</SensorML:areNumeCuloare>
+        <SensorML:areNumeCuloareMargine>darkRedBrown</SensorML:areNumeCuloareMargine>
+        <SensorML:areNumeForma>irregular</SensorML:areNumeForma>
+        <SensorML:areNumeIntensitate>SevereToFatal</SensorML:areNumeIntensitate>
+        <SensorML:areNumeModel>blotchy</SensorML:areNumeModel>
+        <SensorML:areNumeParteAfectata>Fruit</SensorML:areNumeParteAfectata>
+        <SensorML:areNumeRegiuneAnatomica>basalToCentralRegion </SensorML:areNumeRegiuneAnatomica>
+        <SensorML:areNumeTextura>dryAndRough</SensorML:areNumeTextura>
+        </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#instanta_6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#instanta_6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#IntensitateAfectare"/>
+        <SensorML:areNumeBoala>EarlyBlight</SensorML:areNumeBoala>
+        <SensorML:areNumeCuloare>yellowGreen</SensorML:areNumeCuloare>
+        <SensorML:areNumeCuloareMargine></SensorML:areNumeCuloareMargine>
+        <SensorML:areNumeForma>circular</SensorML:areNumeForma>
+        <SensorML:areNumeIntensitate>WeakToModerate</SensorML:areNumeIntensitate>
+        <SensorML:areNumeModel>spotted</SensorML:areNumeModel>
+        <SensorML:areNumeParteAfectata>Leaf</SensorML:areNumeParteAfectata>
+        <SensorML:areNumeRegiuneAnatomica></SensorML:areNumeRegiuneAnatomica>
+        <SensorML:areNumeTextura>damp</SensorML:areNumeTextura>
+        </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#instanta_7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#instanta_7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#Model"/>
+        <SensorML:areNumeBoala>EarlyBlight</SensorML:areNumeBoala>
+        <SensorML:areNumeCuloare>yellow</SensorML:areNumeCuloare>
+        <SensorML:areNumeCuloareMargine>yellow</SensorML:areNumeCuloareMargine>
+        <SensorML:areNumeForma>circular</SensorML:areNumeForma>
+        <SensorML:areNumeIntensitate>StrongToFatal</SensorML:areNumeIntensitate>
+        <SensorML:areNumeModel>spotted</SensorML:areNumeModel>
+        <SensorML:areNumeParteAfectata>Leaf</SensorML:areNumeParteAfectata>
+        <SensorML:areNumeRegiuneAnatomica></SensorML:areNumeRegiuneAnatomica>
+        <SensorML:areNumeTextura>damp</SensorML:areNumeTextura>
+        </owl:NamedIndividual>
+
+        <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#instanta_8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#instanta_8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#ParteAfectata"/>
+        <SensorML:areNumeBoala>EarlyBlight</SensorML:areNumeBoala>
+        <SensorML:areNumeCuloare>black</SensorML:areNumeCuloare>
+        <SensorML:areNumeCuloareMargine></SensorML:areNumeCuloareMargine>
+        <SensorML:areNumeForma>elliptic</SensorML:areNumeForma>
+        <SensorML:areNumeIntensitate>StrongToFatal</SensorML:areNumeIntensitate>
+        <SensorML:areNumeModel>blotchy</SensorML:areNumeModel>
+        <SensorML:areNumeParteAfectata>Stem</SensorML:areNumeParteAfectata>
+        <SensorML:areNumeRegiuneAnatomica></SensorML:areNumeRegiuneAnatomica>
+        <SensorML:areNumeTextura>damp</SensorML:areNumeTextura>
+        </owl:NamedIndividual>
+
+        <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#instanta_9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#instanta_9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#RegiuneAnatomica"/>
+        <SensorML:areNumeBoala>EarlyBlight</SensorML:areNumeBoala>
+        <SensorML:areNumeCuloare>darkBrown</SensorML:areNumeCuloare>
+        <SensorML:areNumeCuloareMargine></SensorML:areNumeCuloareMargine>
+        <SensorML:areNumeForma>ringShape</SensorML:areNumeForma>
+        <SensorML:areNumeIntensitate>SevereToFatal</SensorML:areNumeIntensitate>
+        <SensorML:areNumeModel>blotchy</SensorML:areNumeModel>
+        <SensorML:areNumeParteAfectata>Fruit</SensorML:areNumeParteAfectata>
+        <SensorML:areNumeRegiuneAnatomica>basalToCentralRegion</SensorML:areNumeRegiuneAnatomica>
+        <SensorML:areNumeTextura>dryAndRough</SensorML:areNumeTextura>
+        </owl:NamedIndividual>
+
+        <!-- http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#instanta_10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#instanta_10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birla/ontologies/2023/11/SensorML#Textura"/>
+        <SensorML:areNumeBoala>PowderyMilldew</SensorML:areNumeBoala>
+        <SensorML:areNumeCuloare>yellowWhite</SensorML:areNumeCuloare>
+        <SensorML:areNumeCuloareMargine></SensorML:areNumeCuloareMargine>
+        <SensorML:areNumeForma>irregular</SensorML:areNumeForma>
+        <SensorML:areNumeIntensitate>Alllntensities</SensorML:areNumeIntensitate>
+        <SensorML:areNumeModel>blotchy</SensorML:areNumeModel>
+        <SensorML:areNumeParteAfectata>Leaf</SensorML:areNumeParteAfectata>
+        <SensorML:areNumeRegiuneAnatomica>superiorSide</SensorML:areNumeRegiuneAnatomica>
+        <SensorML:areNumeTextura>chalky</SensorML:areNumeTextura>
+        </owl:NamedIndividual>
 </rdf:RDF>
 
 
